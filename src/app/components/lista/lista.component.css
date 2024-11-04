@@ -1,0 +1,28 @@
+fieldset {
+    margin: 8rem;
+    display: inline-block;
+    height: auto;
+    width: 15rem;
+    text-align: center;
+    border: 7px solid blue;
+    border-radius: 10%;
+}
+button {
+    margin: 5px;
+}
+h2 {
+    text-decoration: underline blue;
+}
+button {
+    border-radius: 5px;
+    padding: 0.2rem;
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+button:hover {
+    background-color: darkblue;
+    border: 2px solid darkblue;
+}

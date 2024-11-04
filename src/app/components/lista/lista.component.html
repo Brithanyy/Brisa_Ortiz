@@ -1,0 +1,7 @@
+<fieldset *ngFor="let cuchillo of cuchillos">
+    <h2>{{cuchillo.nombre}}</h2>
+    <p>Tipo: <span>{{cuchillo.tipo}}</span></p> 
+    <p>Longitud Total: <span>{{cuchillo.longitud_total}} cm</span></p>
+    <button (click)="detalle(cuchillo.id)">Informacion Detallada</button>
+    <button (click)="eliminarCuchillo(cuchillo.id)">Eliminar Cuchillo</button>
+</fieldset>

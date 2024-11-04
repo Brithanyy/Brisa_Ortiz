@@ -1,0 +1,63 @@
+<fieldset>
+
+    <h1>Agregar un Cuchillo</h1>
+    <form [formGroup]="formulario" (ngSubmit)="agregarCuchillo()">
+    <label>Nombre: </label>
+    <input type="text" formControlName = 'nombre' placeholder="Ingrese un nombre">
+    <br>
+    <small [hidden]="nombre?.valid || nombre?.pristine">El campo nombre no debe de quedar vacío</small>
+    <br>
+    <label>Tipo: </label>
+    <select formControlName = 'tipo'>
+        <option value="Chef Santoku">Chef Santoku</option>
+        <option value="de Pan">de Pan</option>
+        <option value="Deshuesador">Deshuesador</option>  
+        <option value="Mondador">Mondador</option>  
+        <option value="CFileteador">Fileteador</option>  
+        <option value="Chino">Chino</option>  
+        <option value="de Casa">de Casa</option>  
+    </select>
+    <br>
+    <small [hidden]="tipo?.valid || tipo?.pristine">El campo tipo de cuchillo no debe de quedar vacío</small>
+    <br>
+    <label>Tipo de Filo: </label>
+    <select formControlName = 'filo'>
+        <option value="Liso">Liso</option>
+        <option value="Dentado">Dentado</option>  
+    </select>
+    <br>
+    <small [hidden]="filo?.valid || filo?.pristine">El campo tipo de filo no debe de quedar vacío</small>
+    <br>
+    <label>Material de la hoja: </label>
+    <select formControlName = 'material_hoja'>
+        <option value="Acero Inoxidable">Acero Inoxidable</option>
+        <option value="Acero al Carbono">Acero al Carbono</option>  
+        <option value="Ceramica">Ceramica</option>  
+    </select>
+    <br>
+    <small [hidden]="material_hoja?.valid || material_hoja?.pristine">El campo material de la hoja no debe de quedar vacío</small>
+    <br>
+    <label>Material del Mango: </label>
+    <select formControlName = 'material_mango'>
+        <option value="de Madera">de Madera</option>
+        <option value="de Metal">de Metal</option>  
+        <option value="de Plastico">de Plastico</option>  
+        <option value="de Hueso">de Hueso</option>  
+    </select>
+    <br>
+    <small [hidden]="material_mango?.valid || material_mango?.pristine">El campo nombre no debe de quedar vacío</small>
+    <br>
+    <label>Longitud de la Hoja: </label>
+    <input type="number" formControlName = 'longitud' placeholder="Ingrese una longitud">
+    <br>
+    <small [hidden]="longitud?.valid || longitud?.pristine">El campo longitud de la hoja no debe de quedar vacío</small>
+    <br>
+    <label>Longitud Total: </label>
+    <input type="number" formControlName = 'longitud_total' placeholder="Ingrese la longitud total">
+    <br>
+    <small [hidden]="longitud_total?.valid || longitud_total?.pristine">El campo longitud total no debe de quedar vacío</small>
+    <br>
+    <button [disabled]="this.formulario.invalid">Agregar Cuchillo</button>
+    </form>
+    
+</fieldset>

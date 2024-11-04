@@ -1,0 +1,74 @@
+{
+  "cuchillos": [
+    {
+      "nombre": "Cuchillo raro",
+      "tipo": "de Pan",
+      "filo": "Liso",
+      "material_hoja": "Acero al Carbono",
+      "material_mango": "de Plastico",
+      "longitud": 651,
+      "longitud_total": 651,
+      "id": "f39a"
+    },
+    {
+      "nombre": "gdgerg",
+      "tipo": "Deshuesador",
+      "filo": "Dentado",
+      "material_hoja": "Acero al Carbono",
+      "material_mango": "de Metal",
+      "longitud": 16651,
+      "longitud_total": 656,
+      "id": "d63a"
+    },
+    {
+      "id": "dj5a",
+      "nombre": "Cuchillo filoso",
+      "tipo": "CFileteador",
+      "filo": "Liso",
+      "material_hoja": "Ceramica",
+      "material_mango": "de Hueso",
+      "longitud": 8,
+      "longitud_total": 15
+    },
+    {
+      "id": "d8ka",
+      "nombre": "Cuchillo filoso",
+      "tipo": "CFileteador",
+      "filo": "Liso",
+      "material_hoja": "Ceramica",
+      "material_mango": "de Hueso",
+      "longitud": 8,
+      "longitud_total": 15
+    },
+    {
+      "id": "dg6a",
+      "nombre": "Cuchillo filoso",
+      "tipo": "CFileteador",
+      "filo": "Liso",
+      "material_hoja": "Ceramica",
+      "material_mango": "de Hueso",
+      "longitud": 8,
+      "longitud_total": 15
+    },
+    {
+      "nombre": "njkdlfgnfd",
+      "tipo": "Deshuesador",
+      "filo": "Dentado",
+      "material_hoja": "Acero al Carbono",
+      "material_mango": "de Plastico",
+      "longitud": 551,
+      "longitud_total": 6132,
+      "id": "dgska"
+    },
+    {
+      "id": "126f",
+      "nombre": "VVD",
+      "tipo": "Deshuesador",
+      "filo": "Dentado",
+      "material_hoja": "Acero al Carbono",
+      "material_mango": "de Metal",
+      "longitud": 131,
+      "longitud_total": 61
+    }
+  ]
+}
